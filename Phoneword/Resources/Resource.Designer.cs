@@ -53,6 +53,9 @@ namespace Phoneword
 			// aapt resource value: 0x7f050003
 			public const int TranslatedPhoneWord = 2131034115;
 			
+			// aapt resource value: 0x7f050004
+			public const int TranslationHistoryButton = 2131034116;
+			
 			// aapt resource value: 0x7f050000
 			public const int textView1 = 2131034112;
 			
@@ -101,8 +104,11 @@ namespace Phoneword
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040001
+			public const int app_name = 2130968577;
+			
 			// aapt resource value: 0x7f040000
-			public const int app_name = 2130968576;
+			public const int translationHistory = 2130968576;
 			
 			static String()
 			{
