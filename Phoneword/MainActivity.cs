@@ -54,7 +54,7 @@ namespace Phoneword
             // translateHistorybutton bind click
             translateHistoryButton.Click += (sender, e) =>
             {
-                var intent = new Intent(this, typeof(TranslationHistoryActivity));
+                var intent = new Intent(this, typeof(NonConfigInstanceActivity));
                 intent.PutStringArrayListExtra("phone_numbers", phoneNumbers);
                 StartActivity(intent);
             };
