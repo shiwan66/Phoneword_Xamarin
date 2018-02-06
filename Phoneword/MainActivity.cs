@@ -4,6 +4,8 @@ using Android.OS;
 using System;
 using Android.Content;
 using System.Collections.Generic;
+using Android.Content.Res;
+using System.IO;
 
 namespace Phoneword
 {
@@ -21,6 +23,17 @@ namespace Phoneword
             TextView translatedPhoneWord = FindViewById<TextView>(Resource.Id.TranslatedPhoneWord);
             Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
             Button translateHistoryButton = FindViewById<Button>(Resource.Id.TranslationHistoryButton);
+            //TextView tv = new TextView(this);
+
+            ////read the contents of our asset
+            //string content;
+            //AssetManager assets = this.Assets;
+            //using(StreamReader sr = new StreamReader(assets.Open("read_asset.txt")))
+            //{
+            //    content = sr.ReadToEnd();
+            //}
+            //tv.Text = content;
+            //SetContentView(tv);
 
             // translateButton bind click
             translateButton.Click += (sender, e) =>

@@ -29,4 +29,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/TranslationHistoryButton"
         android:enabled="false" />
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myImage" />
 </LinearLayout>
