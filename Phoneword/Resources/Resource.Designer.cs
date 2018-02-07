@@ -72,8 +72,14 @@ namespace Phoneword
 			// aapt resource value: 0x7f060004
 			public const int TranslationHistoryButton = 2131099652;
 			
+			// aapt resource value: 0x7f060007
+			public const int incrementCounter = 2131099655;
+			
 			// aapt resource value: 0x7f060005
 			public const int myImage = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int outputText = 2131099654;
 			
 			// aapt resource value: 0x7f060000
 			public const int textView1 = 2131099648;
@@ -93,6 +99,9 @@ namespace Phoneword
 			
 			// aapt resource value: 0x7f040000
 			public const int Main = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int SimpleStateView = 2130968577;
 			
 			static Layout()
 			{
